@@ -53,8 +53,11 @@ h1 {
 h5 {
   font-size: 18px;
 }
-.navigation {
+div {
   background-color: #5DA1BE;
+}
+.navigation {
+  background: #5DA1BE;
   color: #ffffff;
 }
 
