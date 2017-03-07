@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+  font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 ol, ul {
 	list-style: none;
@@ -45,4 +46,28 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+h1 {
+  font-size: 30px;
+}
+h5 {
+  font-size: 18px;
+}
+.navigation {
+  background-color: #5DA1BE;
+  color: #ffffff;
+}
+
+.nav {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  text-align: right;
+}
+.date {
+  color: #9799a7;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+  margin-bottom: 18px;
 }
