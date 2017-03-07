@@ -64,7 +64,7 @@ img {
   display: inline-block;
   float: right;
   margin: 8px 0 0 20px;
-  padding: 4px;
+  padding: 15px;
   height: 150px;
   width: 150px;
   vertical-align: top;
@@ -73,9 +73,6 @@ img {
 .navigation {
   background: #5DA1BE;
   padding: 25px;
-}
-.sitetitle {
-  padding: 20px;
 }
 .title{
   padding: 20px;
