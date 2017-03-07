@@ -30,7 +30,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-  font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 ol, ul {
 	list-style: none;
@@ -47,20 +46,20 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+body {
+  font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 h1 {
   font-size: 30px;
 }
 h5 {
   font-size: 18px;
 }
-div {
-  background-color: #5DA1BE;
-}
 .navigation {
   background: #5DA1BE;
   color: #ffffff;
 }
-
 .nav {
   font-size: 14px;
   font-weight: 400;
