@@ -58,7 +58,7 @@ h5 {
 }
 .navigation {
   background: #5DA1BE;
-  color: #ffffff;
+  padding: 25px;
 }
 .nav {
   font-size: 14px;
@@ -66,6 +66,9 @@ h5 {
   letter-spacing: .5px;
   text-transform: uppercase;
   text-align: right;
+}
+.nav a {
+  color: #fff;
 }
 .date {
   color: #9799a7;
