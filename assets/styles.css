@@ -63,6 +63,8 @@ img {
   float: right;
   margin: 8px 0 0 20px;
   padding: 4px;
+  height: 150px;
+  width: 150px;
 }
 .navigation {
   background: #5DA1BE;
@@ -77,6 +79,7 @@ img {
   letter-spacing: .5px;
   text-transform: uppercase;
   text-align: right;
+  word-spacing: 20px;
 }
 
 .body {
@@ -93,4 +96,9 @@ img {
 }
 .date a{
   color: #5DA1BE;
+}
+.footer {
+  background: #5DA1BE;
+  padding: 20px;
+  color: #fff;
 }
