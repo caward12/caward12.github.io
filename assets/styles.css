@@ -57,9 +57,19 @@ h1 {
 h5 {
   font-size: 18px;
 }
+img {
+  background: #eaeaed;
+  border: 1px solid #9799a7;
+  float: right;
+  margin: 8px 0 0 20px;
+  padding: 4px;
+}
 .navigation {
   background: #5DA1BE;
   padding: 25px;
+}
+.title{
+  padding: 20px;
 }
 .nav {
   font-size: 14px;
@@ -67,8 +77,10 @@ h5 {
   letter-spacing: .5px;
   text-transform: uppercase;
   text-align: right;
-  padding: 25px;
-  word-spacing: 15px;
+}
+
+.body {
+  padding-left: 20px;
 }
 .nav a {
   color: #fff;
