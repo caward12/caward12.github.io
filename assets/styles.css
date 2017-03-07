@@ -60,11 +60,14 @@ h5 {
 img {
   background: #eaeaed;
   border: 1px solid #9799a7;
+  display: block;
   float: right;
   margin: 8px 0 0 20px;
   padding: 4px;
   height: 150px;
   width: 150px;
+  vertical-align: top;
+  border-radius: 5px;
 }
 .navigation {
   background: #5DA1BE;
