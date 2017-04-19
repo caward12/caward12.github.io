@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/styles.css">
+    <title>Colleen Ward</title>
+  </head>
+  <body>
+    <header>
+      <div class="navigation">
+        <nav class="nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="blog.html">Blog</a>
+        </nav>
+      </div
+    </header>
+    <div class="title">
+      <h1>Don't Cry; Pry</h1>
+    </div>
+    <div class="body">
+      <p class ="date"> April 18, 2017</p>
+      <p>What to do when your code is not working as expected(or at all)? Pry it out! <br>
+        <br>
+        One of the best concepts or tools I’ve learned in Mod 2 is to add a ‘pry’ (or another debugger) to the project. I would jump into pry sessions a lot during Mod 1 to test code or methods I thought might work, but when moving into rails, I wasn’t so confident in my pry ability until recently.
+        <br>
+        If you are getting an error when running a rails app and you are not totally sure where the error is occurring, a great way to figure it out is to place pry’s in multiple places through on the app. For example, say you are getting an error when you on the edit page when trying to edit a particular object in your app. Depending on your error and what code you have in your model, a good place to start is putting a pry at the beginning of your update method in your controller, and maybe a few lines down when you call @object.save. You could also put a pry in your model if you are calling a method from the model in the controller. You can also put a pry in the view.
+        <br>
+        Once you pry’s are in place if you run either the server or your test suite you can step through each pry to see where the error is actually occurring. Using this technique really helped me understand how rails and the MVC model was working!         <br>
+        <br>
+    </div>
+    <footer class="footer">
+      <p>&copy; 2017</p>
+    </footer>
+  </body>
+</html>
